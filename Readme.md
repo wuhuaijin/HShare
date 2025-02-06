@@ -36,6 +36,7 @@ You can change the sharing ratio and the number of critical token through `confi
 **GSM8K, COQA accuracy**
 
 1. add the following to `lm-evaluation-harness/lm_eval/models/huggingface.py`
+
 ```
 from evaluation.replace_for_lmeval import replace_llama_modules, replace_mistral_modules
 replace_llama_modules()
@@ -43,11 +44,10 @@ replace_mistral_modules()
 ```
 
 2. run the following
+
 ```
 lm_eval --model hf --model_args pretrained=your_model_path --tasks gsm8k,coqa --device cuda:1 --batch_size 8
 ```
-
-
 
 **Longbench**
 
@@ -83,15 +83,16 @@ python triton_kernels/attention_HShare.py
 python generate.py --checkpoint_path you_model_path.pth --max_new_tokens 2048 --batch_size 16
 ```
 
-
-
 ## Citation
-If you use our code or method in your work, please consider citing the following:
-```
 
+If you use our code or method in your work, please consider citing the following:
+
+```
+a
 ```
 
 ## Acknowledgement
+
 We appreciate the following works for their valuable code and data:
 
 https://github.com/THUDM/LongBench
