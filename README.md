@@ -1,4 +1,8 @@
-# HShare
+# HShare: Fast LLM Decoding by Hierarchical Key-Value Sharing
+Official implementation for the paper "HShare: Fast LLM Decoding by Hierarchical Key-Value Sharing" (ICLR 2025).
+
+https://openreview.net/forum?id=Tb5PY5vwp6
+
 
 ## Install
 
@@ -88,7 +92,12 @@ python generate.py --checkpoint_path you_model_path.pth --max_new_tokens 2048 --
 If you use our code or method in your work, please consider citing the following:
 
 ```
-a
+@inproceedings{wu2025hshare,
+  title={HShare: Fast LLM Decoding by Hierarchical Key-Value Sharing},
+  author={Wu, Huaijin and Li, Lianqiang and Huang, Hantao and Tu, Yi and Zhang, Jihang and Yu, Minghui and Yan, Junchi},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025}
+}
 ```
 
 ## Acknowledgement
