@@ -9,11 +9,11 @@ https://openreview.net/forum?id=Tb5PY5vwp6
 1. Clone this repo and setup the environment
 
 ```
-git clone xxx/HShare.git
+git clone https://github.com/wuhuaijin/HShare.git
 cd HShare
 conda create -n HShare python=3.9 -y
 conda activate HShare
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 2. Install the lm-eval framework
